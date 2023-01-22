@@ -25,7 +25,7 @@
                     },
                     fontFamily : {
                          bebas: ["Bebas Neue", "cursive"],
-                         bontserrat: ["Montserrat", "sans-serif"],
+                         montserrat: ["Montserrat", "sans-serif"],
                     },
                 },
             },
@@ -34,8 +34,11 @@
 </head>
 
 <body>
-    <nav class="h-20">
-        <div class="flex justify-between items-center h-20 w-full max-w-7xl mx-auto font-bebas">
+    <!---------------------------------------------------
+                                nav bar 
+    ----------------------------------------------------->
+    <nav class="h-20 bg-white fixed top-0 left-0 right-0">
+        <div class="flex justify-between items-center h-20 w-full max-w-7xl mx-auto font-bebas px-5">
             <h1 class="text-2xl" >Jhaka Naka Production</h1>
         <ul class="flex gap-8 text-lg font-normal">
             <li>About us</li>
@@ -44,6 +47,23 @@
         </ul>
         </div>
     </nav>
+    <!-------------------------------------------------------
+                             main header   
+    -------------------------------------------------------->
+    <section class="bg-red-500 h-screen pt-20 bg-[url('./images/banner.jpg')] bg-cover">
+        <div class=" h-full w-full max-w-7xl mx-auto px-5 flex items-center">
+            <div>
+                <div class="font-bebas">
+                    <h2 class="text-white text-lg">Movie production studio</h2>
+                    <h1 class="text-white text-7xl">Films MAde to</h1>
+                    <h1 class="text-yellow text-7xl">Perfection</h1>
+                </div>
+                <p class="text-white font-montserrat max-w-lg mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+                <button class="border-2 border-white py-2 px-3 font-bebas text-white text-lg  hover:bg-yellow hover:border-yellow hover:text-black transition-all">Discover More</button>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
