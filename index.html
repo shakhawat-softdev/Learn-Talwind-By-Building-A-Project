@@ -9,7 +9,8 @@
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500&display=swap"
+        rel="stylesheet">
     <!-- tailwind cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -23,9 +24,9 @@
                         black: '#131313',
                         gray: '#4E4E4',
                     },
-                    fontFamily : {
-                         bebas: ["Bebas Neue", "cursive"],
-                         montserrat: ["Montserrat", "sans-serif"],
+                    fontFamily: {
+                        bebas: ["Bebas Neue", "cursive"],
+                        montserrat: ["Montserrat", "sans-serif"],
                     },
                 },
             },
@@ -39,12 +40,12 @@
     ----------------------------------------------------->
     <nav class="h-20 bg-white fixed top-0 left-0 right-0">
         <div class="flex justify-between items-center h-20 w-full max-w-7xl mx-auto font-bebas px-5">
-            <h1 class="text-2xl" >Jhaka Naka Production</h1>
-        <ul class="flex gap-8 text-lg font-normal">
-            <li>About us</li>
-            <li>Our Movies</li>
-            <li>Our Service</li>
-        </ul>
+            <h1 class="text-2xl">Jhaka Naka Production</h1>
+            <ul class="flex gap-8 text-lg font-normal">
+                <li>About us</li>
+                <li>Our Movies</li>
+                <li>Our Service</li>
+            </ul>
         </div>
     </nav>
     <!-------------------------------------------------------
@@ -58,9 +59,83 @@
                     <h1 class="text-white text-7xl">Films MAde to</h1>
                     <h1 class="text-yellow text-7xl">Perfection</h1>
                 </div>
-                <p class="text-white font-montserrat max-w-lg mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <p class="text-white font-montserrat max-w-lg mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
 
-                <button class="border-2 border-white py-2 px-3 font-bebas text-white text-lg  hover:bg-yellow hover:border-yellow hover:text-black transition-all">Discover More</button>
+                <button
+                    class="border-2 border-white py-2 px-3 font-bebas text-white text-lg  hover:bg-yellow hover:border-yellow hover:text-black transition-all">Discover
+                    More</button>
+            </div>
+        </div>
+    </section>
+    <!------------------------------------------------------- 
+                         About Us section FIlming Experience
+    --------------------------------------------------------->
+    <section class="py-40">
+        <div class="border border-black w-full max-w-7xl mx-auto ">
+            <div class="lg:flex p-5">
+                <div class="w-full lg:w-1/2 bg-red-500 h-[500px] bg-[url('./images/camera-man.jpg')] bg-cover bg-center flex justify-center items-end">
+                    <h1 class="bg-white text-black text-2xl font-bebas w-fit px-5 py-3 rounded -mb-10">FIlming Experience</h1>
+
+                </div>
+                <div class="w-full lg:w-1/2 p-5 font-bebas">
+                    <h2 class="text-lg">ABOUT US</h2>
+                    <h1 class="text-7xl">FIlming Experience </h1>
+                    <h1 class="text-7xl">Just Got better</h1>
+                    <p class="font-montserrat mb-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis,
+                        perferendis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, quibusdam.
+                    </p>
+                    <button
+                        class="border-2 border-black py-2 px-3 font-bebas text-black text-lg  hover:bg-yellow hover:border-yellow hover:text-black transition-all">Discover
+                        More</button>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-5 p-5">
+                <div>
+                    <div class="bg-black h-1 w-full mb-2"></div>
+                    <h1 class="text-3xl font-bebas">OUR VISIOn</h1>
+                    <p class="text-lg font-montserrat">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                        tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div>
+                    <div class="bg-black h-1 w-full mb-2"></div>
+                    <h1 class="text-3xl font-bebas">OUR Mission</h1>
+                    <p class="text-lg font-montserrat">Malesuada tempus et habitant nascetur porta nec. Fusce consequat
+                        risus per sollicitudin hendrerit suscipit convallis sociosqu.</p>
+                </div>
+                <div>
+                    <div class="bg-black h-1 w-full mb-2"></div>
+                    <h1 class="text-3xl font-bebas">OUR Motto</h1>
+                    <p class="text-lg font-montserrat">“We don't make movies to make money, we make money to make more
+                        movies.”</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------------------------------
+                     Movie collection
+    -------------------------------------------------->
+    <section class="bg-slate-600 py-20 px-5">
+        <div class="w-full max-w-7xl mx-auto">
+            <h2 class="font-bebas text-white ">OUR MOVIEs</h2>
+            <div class="flex justify-between items-center">
+                <h1 class="text-7xl text-white font-bebas">Movie collections</h1>
+                <button class="border-2 border-white py-2 px-3 font-bebas text-white text-lg  hover:bg-yellow hover:border-yellow hover:text-black transition-all">Discover
+                    More</button>
+            </div>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 w-full max-w-7xl mx-auto gap-5 mb-10">
+            <div class="border-2 border-white h-[700px] md:h-[550px] lg:h-[400px]  p-5">
+                <div class="bg-[url('./images/inception.jpg')] h-full w-full bg-cover"></div>
+            </div>
+            <div class="border-2 border-white h-[700px] md:h-[550px] lg:h-[400px] p-5">
+                <div class="bg-[url('./images/fractured.jpg')] h-full w-full bg-cover"></div>
+            </div>
+            <div class="border-2 border-white h-[700px] md:h-[550px] lg:h-[400px] p-5">
+                <div class="bg-[url('./images/interstellar.jpg')] h-full w-full bg-cover"></div>
+            </div>
+            <div class="border-2 border-white h-[700px] md:h-[550px] lg:h-[400px] p-5">
+                <div class="bg-[url('./images/tenet.jpg')] h-full w-full bg-cover"></div>
             </div>
         </div>
     </section>
